@@ -2,8 +2,8 @@
 
 This application has the following features.
 
-User signup__
-Login__
+User signup <br />
+Login <br />
 Categories
 Product Listing
 Product Details
