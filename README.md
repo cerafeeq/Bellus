@@ -4,10 +4,10 @@ This application has the following features.
 
 User signup <br />
 Login <br />
-Categories
-Product Listing
-Product Details
-Settings
+Categories <br />
+Product Listing <br />
+Product Details <br />
+Settings <br />
 Arabic Language support
 
 ## Getting Started
