@@ -2,13 +2,13 @@
 
 This application has the following features.
 
-** User signup**
-** Login **
-** Categories **
-** Product Listing **
-** Product Details **
-** Settings **
-** Arabic Language support **
+User signup
+Login
+Categories
+Product Listing
+Product Details
+Settings
+Arabic Language support
 
 ## Getting Started
 
