@@ -1,0 +1,6 @@
+framework module Pods_Bellus {
+  umbrella header "Pods-Bellus-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "0oW-5c-c2b"; */
+"0oW-5c-c2b.text" = "Bellus";
+
+/* Class = "UIBarButtonItem"; title = "  "; ObjectID = "2gE-rd-OTu"; */
+"2gE-rd-OTu.title" = "  ";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "4dv-Ng-reH"; */
+"4dv-Ng-reH.text" = "ليس لديك حساب؟";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "7Os-z5-93a"; */
+"7Os-z5-93a.title" = " ";
+
+/* Class = "UILabel"; text = "Your beauty, our passion."; ObjectID = "9fh-6w-bSM"; */
+"9fh-6w-bSM.text" = "جمالك ، شغفنا.";
+
+/* Class = "UILabel"; text = "WOW Skin Science Apple Cider Vinegar Shampoo Sulphate Paraben Free"; ObjectID = "ARy-Fg-3fI"; */
+"ARy-Fg-3fI.text" = "WOW Skin Science Apple Cider Vinegar Shampoo Sulphate Paraben Free";
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "B7P-Yu-mkh"; */
+"B7P-Yu-mkh.text" = "Bellus";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "BQG-7s-xFB"; */
+"BQG-7s-xFB.text" = "ليس لديك حساب؟";
+
+/* Class = "UIButton"; normalTitle = "Sign Out"; ObjectID = "CPJ-Ye-CO6"; */
+"CPJ-Ye-CO6.normalTitle" = "خروج";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "DVf-QY-4Xq"; */
+"DVf-QY-4Xq.text" = "وصف";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "Dpn-WK-gcs"; */
+"Dpn-WK-gcs.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "EDO-0j-f4i"; */
+"EDO-0j-f4i.placeholder" = "اسم";
+
+/* Class = "UITabBarItem"; title = "Profiles"; ObjectID = "EzC-Dp-ku4"; */
+"EzC-Dp-ku4.title" = "مظهر";
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "F9V-Fh-6HL"; */
+"F9V-Fh-6HL.text" = "Bellus";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "G0F-2B-cqW"; */
+"G0F-2B-cqW.text" = "كمية";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "HUD-qR-Kw7"; */
+"HUD-qR-Kw7.text" = "السعر:";
+
+/* Class = "UILabel"; text = "AED 25"; ObjectID = "I5N-vK-lXv"; */
+"I5N-vK-lXv.text" = "AED 25";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Ipi-Kp-iEy"; */
+"Ipi-Kp-iEy.title" = "الإعدادات";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "Jon-Bg-gz3"; */
+"Jon-Bg-gz3.text" = "هل لديك حساب؟";
+
+/* Class = "UILabel"; text = "Your beauty, our passion."; ObjectID = "MSP-d2-Mfg"; */
+"MSP-d2-Mfg.text" = "جمالك ، شغفنا.";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "N5s-n9-Hux"; */
+"N5s-n9-Hux.normalTitle" = "سجل";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Naj-eb-sVO"; */
+"Naj-eb-sVO.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "Nw9-s6-K69"; */
+"Nw9-s6-K69.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "P4N-wH-QVC"; */
+"P4N-wH-QVC.text" = "Bellus";
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "Qew-C1-uSx"; */
+"Qew-C1-uSx.text" = "Bellus";
+
+/* Class = "UIButton"; normalTitle = "Buy Now"; ObjectID = "RV6-St-x2Z"; */
+"RV6-St-x2Z.normalTitle" = "اشتري الآن";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "VKF-AA-tnR"; */
+"VKF-AA-tnR.normalTitle" = "سجل";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "WqX-Wj-dPT"; */
+"WqX-Wj-dPT.text" = "ليس لديك حساب؟";
+
+/* Class = "UILabel"; text = "25 AED"; ObjectID = "Xgy-aP-fro"; */
+"Xgy-aP-fro.text" = "25 AED";
+
+/* Class = "UITabBarItem"; title = "Categories"; ObjectID = "b8O-Hz-SSc"; */
+"b8O-Hz-SSc.title" = "الاقسام";
+
+/* Class = "UILabel"; text = "Select Language:"; ObjectID = "cWn-gG-VqW"; */
+"cWn-gG-VqW.text" = "اختار اللغة:";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "dSx-f7-sdx"; */
+"dSx-f7-sdx.normalTitle" = "سجل";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "hBf-oX-wkm"; */
+"hBf-oX-wkm.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Location"; ObjectID = "hC0-KX-Oae"; */
+"hC0-KX-Oae.placeholder" = "موقعك";
+
+/* Class = "UILabel"; text = "Save Location Info"; ObjectID = "hF8-R4-VZb"; */
+"hF8-R4-VZb.text" = "حفظ معلومات الموقع";
+
+/* Class = "UILabel"; text = "WOW Skin Science Apple Cider Vinegar Shampoo Sulphate Paraben Free"; ObjectID = "lQy-nE-yHI"; */
+"lQy-nE-yHI.text" = "WOW Skin Science Apple Cider Vinegar Shampoo Sulphate Paraben Free";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "mci-BI-Hsd"; */
+"mci-BI-Hsd.placeholder" = "كلمه السر";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "n0h-lO-Dbm"; */
+"n0h-lO-Dbm.normalTitle" = "سجل";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "n64-1Q-tIx"; */
+"n64-1Q-tIx.normalTitle" = "تحديث";
+
+/* Class = "UIButton"; normalTitle = "Buy Now"; ObjectID = "o3i-xj-ANo"; */
+"o3i-xj-ANo.normalTitle" = "اشتري الآن";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "tST-vW-hJQ"; */
+"tST-vW-hJQ.placeholder" = "كلمه السر";
+
+/* Class = "UILabel"; text = "Bellus"; ObjectID = "u4Y-dX-lz7"; */
+"u4Y-dX-lz7.text" = "Bellus";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "urN-AQ-MMv"; */
+"urN-AQ-MMv.text" = "Label";

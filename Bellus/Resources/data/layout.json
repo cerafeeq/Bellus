@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "NameField",
+        "type": "TextField",
+        "key": "name",
+        "placeholder": "Name",
+        "image": "Person"
+    },
+    {
+        "id": 2,
+        "name": "GenderField",
+        "type": "RadioButton",
+        "key": "gender",
+        "placeholder": "",
+        "image": "Gender"
+    },
+    {
+        "id": 3,
+        "name": "EmailField",
+        "type": "TextField",
+        "key": "email",
+        "placeholder": "Email",
+        "image": "Email"
+    },
+    {
+        "id": 4,
+        "name": "CityField",
+        "type": "TextField",
+        "key": "city",
+        "placeholder": "City",
+        "image": "City"
+    },
+    {
+        "id": 5,
+        "name": "PhoneField",
+        "type": "TextField",
+        "key": "phone",
+        "placeholder": "Phone",
+        "image": "Phone"
+    },
+    {
+        "id": 6,
+        "name": "AddressField",
+        "type": "UITextField",
+        "key": "address",
+        "placeholder": "Address",
+        "image": "Location"
+    }
+]

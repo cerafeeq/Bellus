@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Nykaa Shower Gel",
+        "price": "75",
+        "image": "body001",
+        "currency": "AED",
+        "description": "It's to give you company. Unpack the stress and dive into the inviting embrace of our French Lavender which connects you to the tender quietness in the centre of your being.Indulge in the loving calmness of lavender that adds a subtle pop to your grey days, makes you smile a tad bit wider and allows you to chase your dreams along with the stars. Unwind with the soothing attention that our French Lavender Range lavishes upon you. Give those blues a serious dose of Zen! Finding that Zen place can be a challenge with those long to-do lists, Babe, cut yourself some slack! Indulge in the calming scent of lavenders to relax and recharge."
+    },
+    {
+        "id": 2,
+        "name": "Pears Pure & Gentle Body Wash",
+        "price": "87",
+        "image": "body002",
+        "currency": "AED",
+        "description": "Pears is a skin-care brand. Its range, which includes face wash and hand soap, contains glycerin and natural oils, making the products gentle and non-abrasive, and drawing recommendations from doctors and paediatricians. With the goodness of glycerine & natural oils, Pears is trusted for being gentle, and is recommended by doctors and paediatricians worldwide. It keeps your skin soft and smiling with innocence. It is so pure that you can actually see through it! Its unique formula not only washes your body but also cleanses off all impurities."
+    }
+]
+ 
+ 

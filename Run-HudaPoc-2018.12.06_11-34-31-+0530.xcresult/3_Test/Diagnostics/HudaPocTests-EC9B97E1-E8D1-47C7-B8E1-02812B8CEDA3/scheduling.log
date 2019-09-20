@@ -1,0 +1,5 @@
+2018-12-06 06:04:52 +0000: Received worker from worker provider: 0x7fbc92762c50 [0: iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E)]
+2018-12-06 06:05:05 +0000: Worker 0x7fbc92762c50 [5059: iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E)] finished bootstrapping
+2018-12-06 06:05:05 +0000: Parallelization disabled; test execution driven by the test process
+2018-12-06 06:05:06 +0000: Worker 0x7fbc92762c50 [5059: iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E)] finished successfully
+2018-12-06 06:05:06 +0000: Finished executing tests (cancelled: No)

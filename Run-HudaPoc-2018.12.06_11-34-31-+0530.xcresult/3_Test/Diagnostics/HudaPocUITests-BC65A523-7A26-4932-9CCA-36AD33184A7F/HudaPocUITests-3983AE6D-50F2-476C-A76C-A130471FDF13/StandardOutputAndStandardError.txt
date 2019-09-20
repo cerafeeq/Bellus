@@ -1,0 +1,29 @@
+2018-12-06 11:35:08.081326+0530 HudaPocUITests-Runner[5063:636236] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2018-12-06 11:35:08.113825+0530 HudaPocUITests-Runner[5063:636236] Running tests...
+2018-12-06 11:35:08.305014+0530 HudaPocUITests-Runner[5063:636236] [AXMediaCommon] Unable to look up screen scale
+2018-12-06 11:35:08.305108+0530 HudaPocUITests-Runner[5063:636236] [AXMediaCommon] Unexpected physical screen orientation
+2018-12-06 11:35:08.318594+0530 HudaPocUITests-Runner[5063:636236] [AXMediaCommon] Unable to look up screen scale
+2018-12-06 11:35:08.321264+0530 HudaPocUITests-Runner[5063:636236] [AXMediaCommon] Unable to look up screen scale
+2018-12-06 11:35:08.321353+0530 HudaPocUITests-Runner[5063:636236] [AXMediaCommon] Unexpected physical screen orientation
+Test Suite 'All tests' started at 2018-12-06 11:35:08.993
+Test Suite 'HudaPocUITests.xctest' started at 2018-12-06 11:35:08.994
+Test Suite 'HudaPocUITests' started at 2018-12-06 11:35:08.994
+Test Case '-[HudaPocUITests.HudaPocUITests testExample]' started.
+    t =     0.00s Start Test at 2018-12-06 11:35:08.995
+    t =     0.04s Set Up
+    t =     0.04s     Open com.rainierlabs.HudaPoc
+    t =     0.06s         Launch com.rainierlabs.HudaPoc
+    t =     2.98s             Wait for com.rainierlabs.HudaPoc to idle
+    t =     4.21s Tear Down
+Test Case '-[HudaPocUITests.HudaPocUITests testExample]' passed (4.408 seconds).
+Test Suite 'HudaPocUITests' passed at 2018-12-06 11:35:13.403.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.408 (4.408) seconds
+Test Suite 'HudaPocUITests.xctest' passed at 2018-12-06 11:35:13.403.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.408 (4.409) seconds
+Test Suite 'All tests' passed at 2018-12-06 11:35:13.404.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.408 (4.411) seconds
+
+
+Test session results and logs:
+	/Users/rafeeqce/projects/iOS/HudaPoc/Build/Logs/Test/Run-HudaPoc-2018.12.06_11-34-31-+0530.xcresult
+

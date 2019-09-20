@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Fashion",
+        "key": "fashion",
+        "image": "Fashion"
+    },
+    {
+        "id": 2,
+        "name": "Bath & Body",
+        "key": "body",
+        "image": "Skincare"
+    },
+    {
+        "id": 3,
+        "name": "Eyewear",
+        "key": "eyewear",
+        "image": "Eyewear"
+    },
+    {
+        "id": 4,
+        "name": "Lip Care",
+        "key": "lipcare",
+        "image": "Lips"
+    },
+    {
+        "id": 5,
+        "name": "Hair Care",
+        "key": "haircare",
+        "image": "HairDryer"
+    }
+]

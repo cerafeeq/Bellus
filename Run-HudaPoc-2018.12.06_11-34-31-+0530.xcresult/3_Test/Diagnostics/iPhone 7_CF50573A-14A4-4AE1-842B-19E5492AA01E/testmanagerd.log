@@ -1,0 +1,62 @@
+11:34:52.434 xcodebuild[4386:634706] Got a sim device notification for iPhone 7: {
+    notification = "availableDevices_changed";
+}
+
+11:34:52.435 xcodebuild[4386:634706] Got a sim device notification for iPhone 7: {
+    device = "iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+
+11:34:52.435 xcodebuild[4386:634706] Sim iPhone 7 state changed to 2
+
+11:34:52.437 xcodebuild[4386:634706] Got a sim device notification for iPhone 7: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+
+11:34:52.497 xcodebuild[4386:632311] Got a sim device notification for iPhone 7: {
+    notification = "availableDevices_changed";
+}
+
+11:34:52.497 xcodebuild[4386:632311] Got a sim device notification for iPhone 7: {
+    device = "iPhone 7 (CF50573A-14A4-4AE1-842B-19E5492AA01E, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+
+11:34:52.497 xcodebuild[4386:632311] Sim iPhone 7 state changed to 3
+
+11:34:52.497 xcodebuild[4386:632311] Sim iPhone 7: Unregistering for sim device notification with token 4
+
+11:34:52.497 xcodebuild[4386:632311] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+
+11:34:52.533 xcodebuild[4386:632311] Sim iPhone 7 has testmanagerd socket at /private/tmp/com.apple.launchd.4szS8QYw5L/com.apple.testmanagerd.unix-domain.socket
+
+11:34:52.533 xcodebuild[4386:632311] Validating test connection socket path (/private/tmp/com.apple.launchd.4szS8QYw5L/com.apple.testmanagerd.unix-domain.socket)
+
+11:34:52.533 xcodebuild[4386:632311] Constructing transport for test connection socket
+
+11:34:52.533 xcodebuild[4386:632311] Connected socket 26 to testmanagerd for Sim iPhone 7
+
+11:34:52.534 xcodebuild[4386:634703] Initiating control session with controller protocol version 29
+
+11:34:53.657 xcodebuild[4386:634684] Got reply to control session initiation request (result:error): 29: (null)
+
+11:34:53.657 xcodebuild[4386:634684] Completed protocol exchange, test daemon is running v29.
+
+11:35:05.657 xcodebuild[4386:634684] Got authorization request for pid 5059
+
+11:35:05.657 xcodebuild[4386:634687] Requesting authorization for pid 5059
+
+11:35:05.661 xcodebuild[4386:635744] Got reply to authorization request for pid 5059 (result:error): 1: (null)
+
+11:35:08.168 xcodebuild[4386:636209] Got authorization request for pid 5063
+
+11:35:08.168 xcodebuild[4386:635747] Requesting authorization for pid 5063
+
+11:35:08.169 xcodebuild[4386:635747] Got reply to authorization request for pid 5063 (result:error): 1: (null)
+

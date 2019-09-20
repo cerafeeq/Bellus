@@ -1,0 +1,230 @@
+2018-12-06 11:35:05.560842+0530 HudaPoc[5059:636167] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+Test Suite 'All tests' started at 2018-12-06 11:35:05.725
+Test Suite 'HudaPocTests.xctest' started at 2018-12-06 11:35:05.726
+Test Suite 'CategoryListTests' started at 2018-12-06 11:35:05.726
+Test Case '-[HudaPocTests.CategoryListTests testCategoryCount]' started.
+Test Case '-[HudaPocTests.CategoryListTests testCategoryCount]' passed (0.053 seconds).
+Test Suite 'CategoryListTests' passed at 2018-12-06 11:35:05.780.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.053 (0.054) seconds
+Test Suite 'EditProfileTests' started at 2018-12-06 11:35:05.780
+Test Case '-[HudaPocTests.EditProfileTests testNumberOfWidgets]' started.
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: annotation: creating schema.
+CoreData: sql: pragma page_size=4096
+CoreData: sql: pragma auto_vacuum=2
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: CREATE TABLE ZUSER ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZSEX INTEGER, ZADDRESS VARCHAR, ZCITY VARCHAR, ZEMAIL VARCHAR, ZLOCATION VARCHAR, ZNAME VARCHAR, ZPASSWORD VARCHAR, ZPHONE VARCHAR, ZID BLOB ) 
+CoreData: annotation: Creating primary key table.
+CoreData: sql: CREATE TABLE Z_PRIMARYKEY (Z_ENT INTEGER PRIMARY KEY, Z_NAME VARCHAR, Z_SUPER INTEGER, Z_MAX INTEGER)
+CoreData: sql: INSERT INTO Z_PRIMARYKEY(Z_ENT, Z_NAME, Z_SUPER, Z_MAX) VALUES(1, 'User', 0, 0)
+CoreData: sql: CREATE TABLE Z_METADATA (Z_VERSION INTEGER PRIMARY KEY, Z_UUID VARCHAR(255), Z_PLIST BLOB)
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: DELETE FROM Z_METADATA WHERE Z_VERSION = ?
+CoreData: sql: INSERT INTO Z_METADATA (Z_VERSION, Z_UUID, Z_PLIST) VALUES (?, ?, ?)
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: CREATE TABLE Z_MODELCACHE (Z_CONTENT BLOB)
+CoreData: sql: INSERT INTO Z_MODELCACHE (Z_CONTENT) VALUES (?)
+CoreData: sql: COMMIT
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: DELETE FROM ZUSER WHERE Z_PK IN (SELECT t0.Z_PK FROM ZUSER t0 )
+CoreData: sql: COMMIT
+CoreData: sql: pragma page_count
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: pragma freelist_count
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: SELECT Z_MAX FROM Z_PRIMARYKEY WHERE Z_ENT = ?
+CoreData: sql: UPDATE OR FAIL Z_PRIMARYKEY SET Z_MAX = ? WHERE Z_ENT = ? AND Z_MAX = ?
+CoreData: sql: COMMIT
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: INSERT INTO ZUSER(Z_PK, Z_ENT, Z_OPT, ZADDRESS, ZCITY, ZEMAIL, ZID, ZLOCATION, ZNAME, ZPASSWORD, ZPHONE, ZSEX) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+CoreData: sql: COMMIT
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: sql: SELECT 0, t0.Z_PK, t0.Z_OPT, t0.ZADDRESS, t0.ZCITY, t0.ZEMAIL, t0.ZID, t0.ZLOCATION, t0.ZNAME, t0.ZPASSWORD, t0.ZPHONE, t0.ZSEX FROM ZUSER t0 WHERE  t0.Z_PK = ? 
+CoreData: annotation: sql connection fetch time: 0.0002s
+CoreData: annotation: total fetch execution time: 0.0004s for 1 rows.
+CoreData: annotation: fault fulfilled from database for : 0xaa6fe61deaae3672 <x-coredata://2F4CE348-1F67-4477-9300-727768124ADF/User/p1>
+CoreData: annotation: Disconnecting from sqlite database.
+Test Case '-[HudaPocTests.EditProfileTests testNumberOfWidgets]' passed (0.103 seconds).
+Test Suite 'EditProfileTests' passed at 2018-12-06 11:35:05.884.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.103 (0.104) seconds
+Test Suite 'HudaPocTests' started at 2018-12-06 11:35:05.885
+Test Case '-[HudaPocTests.HudaPocTests testExample]' started.
+Test Case '-[HudaPocTests.HudaPocTests testExample]' passed (0.001 seconds).
+Test Case '-[HudaPocTests.HudaPocTests testPerformanceExample]' started.
+CoreData: annotation: Disconnecting from sqlite database.
+/Users/rafeeqce/projects/iOS/HudaPoc/HudaPocTests/HudaPocTests.swift:30: Test Case '-[HudaPocTests.HudaPocTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 111.638%, values: [0.000003, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[HudaPocTests.HudaPocTests testPerformanceExample]' passed (0.329 seconds).
+Test Suite 'HudaPocTests' passed at 2018-12-06 11:35:06.216.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.330 (0.331) seconds
+Test Suite 'ProductListTests' started at 2018-12-06 11:35:06.216
+Test Case '-[HudaPocTests.ProductListTests testNumberOfProducts]' started.
+Test Case '-[HudaPocTests.ProductListTests testNumberOfProducts]' passed (0.003 seconds).
+Test Suite 'ProductListTests' passed at 2018-12-06 11:35:06.220.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'SettingsTests' started at 2018-12-06 11:35:06.220
+Test Case '-[HudaPocTests.SettingsTests testLanguageChange]' started.
+Test Case '-[HudaPocTests.SettingsTests testLanguageChange]' passed (0.019 seconds).
+Test Case '-[HudaPocTests.SettingsTests testSignOUt]' started.
+Test Case '-[HudaPocTests.SettingsTests testSignOUt]' passed (0.004 seconds).
+Test Suite 'SettingsTests' passed at 2018-12-06 11:35:06.244.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.023 (0.024) seconds
+Test Suite 'SignInVCTests' started at 2018-12-06 11:35:06.244
+Test Case '-[HudaPocTests.SignInVCTests testInvalidEmail]' started.
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: annotation: Disconnecting from sqlite database.
+Test Case '-[HudaPocTests.SignInVCTests testInvalidEmail]' passed (0.049 seconds).
+Test Case '-[HudaPocTests.SignInVCTests testInvalidUserLogin]' started.
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: sql: SELECT 0, t0.Z_PK, t0.Z_OPT, t0.ZADDRESS, t0.ZCITY, t0.ZEMAIL, t0.ZID, t0.ZLOCATION, t0.ZNAME, t0.ZPASSWORD, t0.ZPHONE, t0.ZSEX FROM ZUSER t0 WHERE ( t0.ZEMAIL = ? AND  t0.ZPASSWORD = ?) 
+CoreData: annotation: sql connection fetch time: 0.0002s
+CoreData: annotation: total fetch execution time: 0.0003s for 0 rows.
+2018-12-06 11:35:06.308630+0530 HudaPoc[5059:636167] Warning: Attempt to present <UIAlertController: 0x7fe413843c00> on <HudaPoc.SignInVC: 0x7fe410d010d0> whose view is not in the window hierarchy!
+Test Case '-[HudaPocTests.SignInVCTests testInvalidUserLogin]' passed (0.016 seconds).
+Test Case '-[HudaPocTests.SignInVCTests testVerifyUserLogin]' started.
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+2018-12-06 11:35:06.318702+0530 HudaPoc[5059:636167] [error] warning: Multiple NSEntityDescriptions claim the NSManagedObject subclass 'User' so +entity is unable to disambiguate.
+CoreData: warning: Multiple NSEntityDescriptions claim the NSManagedObject subclass 'User' so +entity is unable to disambiguate.
+2018-12-06 11:35:06.318836+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x60000364c420) from NSManagedObjectModel (0x6000022d8a50) claims 'User'.
+CoreData: warning:  	 'User' (0x60000364c420) from NSManagedObjectModel (0x6000022d8a50) claims 'User'.
+2018-12-06 11:35:06.318932+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x60000365b5a0) from NSManagedObjectModel (0x600002224280) claims 'User'.
+CoreData: warning:  	 'User' (0x60000365b5a0) from NSManagedObjectModel (0x600002224280) claims 'User'.
+2018-12-06 11:35:06.319019+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x600003654fd0) from NSManagedObjectModel (0x60000222de00) claims 'User'.
+CoreData: warning:  	 'User' (0x600003654fd0) from NSManagedObjectModel (0x60000222de00) claims 'User'.
+2018-12-06 11:35:06.319125+0530 HudaPoc[5059:636167] [error] error: +[User entity] Failed to find a unique match for an NSEntityDescription to a managed object subclass
+CoreData: error: +[User entity] Failed to find a unique match for an NSEntityDescription to a managed object subclass
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: SELECT Z_MAX FROM Z_PRIMARYKEY WHERE Z_ENT = ?
+CoreData: sql: UPDATE OR FAIL Z_PRIMARYKEY SET Z_MAX = ? WHERE Z_ENT = ? AND Z_MAX = ?
+CoreData: sql: pragma auto_vacuum
+CoreData: annotation: sql execution time: 0.0003s
+CoreData: sql: pragma auto_vacuum=2
+CoreData: annotation: sql execution time: 0.0002s
+CoreData: sql: COMMIT
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: INSERT INTO ZUSER(Z_PK, Z_ENT, Z_OPT, ZADDRESS, ZCITY, ZEMAIL, ZID, ZLOCATION, ZNAME, ZPASSWORD, ZPHONE, ZSEX) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+CoreData: sql: COMMIT
+CoreData: sql: pragma page_count
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: pragma freelist_count
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: SELECT 0, t0.Z_PK, t0.Z_OPT, t0.ZADDRESS, t0.ZCITY, t0.ZEMAIL, t0.ZID, t0.ZLOCATION, t0.ZNAME, t0.ZPASSWORD, t0.ZPHONE, t0.ZSEX FROM ZUSER t0 WHERE ( t0.ZEMAIL = ? AND  t0.ZPASSWORD = ?) 
+CoreData: annotation: sql connection fetch time: 0.0003s
+CoreData: annotation: total fetch execution time: 0.0004s for 2 rows.
+Test Case '-[HudaPocTests.SignInVCTests testVerifyUserLogin]' passed (0.024 seconds).
+Test Suite 'SignInVCTests' passed at 2018-12-06 11:35:06.334.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.088 (0.090) seconds
+Test Suite 'SignUpTests' started at 2018-12-06 11:35:06.334
+Test Case '-[HudaPocTests.SignUpTests testCreateUser]' started.
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: annotation: Connecting to sqlite database file at "/Users/rafeeqce/Library/Developer/CoreSimulator/Devices/CF50573A-14A4-4AE1-842B-19E5492AA01E/data/Containers/Data/Application/3CDEDE53-66BC-4311-88F2-2BDDA49FEDD0/Library/Application Support/HudaPoc.sqlite"
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: pragma recursive_triggers=1
+CoreData: sql: pragma journal_mode=wal
+CoreData: sql: SELECT Z_VERSION, Z_UUID, Z_PLIST FROM Z_METADATA
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_METADATA'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'Z_MODELCACHE'
+CoreData: sql: SELECT TBL_NAME FROM SQLITE_MASTER WHERE TBL_NAME = 'ACHANGE'
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: DELETE FROM ZUSER WHERE Z_PK IN (SELECT t0.Z_PK FROM ZUSER t0 )
+CoreData: sql: pragma auto_vacuum
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: pragma auto_vacuum=2
+CoreData: annotation: sql execution time: 0.0004s
+CoreData: sql: COMMIT
+CoreData: sql: pragma page_count
+CoreData: annotation: sql execution time: 0.0003s
+CoreData: sql: pragma freelist_count
+CoreData: annotation: sql execution time: 0.0004s
+CoreData: sql: SELECT 0, t0.Z_PK, t0.Z_OPT, t0.ZADDRESS, t0.ZCITY, t0.ZEMAIL, t0.ZID, t0.ZLOCATION, t0.ZNAME, t0.ZPASSWORD, t0.ZPHONE, t0.ZSEX FROM ZUSER t0 WHERE  t0.ZEMAIL = ? 
+CoreData: annotation: sql connection fetch time: 0.0002s
+CoreData: annotation: total fetch execution time: 0.0002s for 0 rows.
+2018-12-06 11:35:06.353178+0530 HudaPoc[5059:636167] [error] warning: Multiple NSEntityDescriptions claim the NSManagedObject subclass 'User' so +entity is unable to disambiguate.
+CoreData: warning: Multiple NSEntityDescriptions claim the NSManagedObject subclass 'User' so +entity is unable to disambiguate.
+2018-12-06 11:35:06.353442+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x600003654fd0) from NSManagedObjectModel (0x60000222de00) claims 'User'.
+CoreData: warning:  	 'User' (0x600003654fd0) from NSManagedObjectModel (0x60000222de00) claims 'User'.
+2018-12-06 11:35:06.353767+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x600003650bb0) from NSManagedObjectModel (0x6000022dcb90) claims 'User'.
+CoreData: warning:  	 'User' (0x600003650bb0) from NSManagedObjectModel (0x6000022dcb90) claims 'User'.
+2018-12-06 11:35:06.354132+0530 HudaPoc[5059:636167] [error] warning:  	 'User' (0x600003650c60) from NSManagedObjectModel (0x6000022deee0) claims 'User'.
+CoreData: warning:  	 'User' (0x600003650c60) from NSManagedObjectModel (0x6000022deee0) claims 'User'.
+2018-12-06 11:35:06.354792+0530 HudaPoc[5059:636167] [error] error: +[User entity] Failed to find a unique match for an NSEntityDescription to a managed object subclass
+CoreData: error: +[User entity] Failed to find a unique match for an NSEntityDescription to a managed object subclass
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: SELECT Z_MAX FROM Z_PRIMARYKEY WHERE Z_ENT = ?
+CoreData: sql: UPDATE OR FAIL Z_PRIMARYKEY SET Z_MAX = ? WHERE Z_ENT = ? AND Z_MAX = ?
+CoreData: sql: pragma auto_vacuum
+CoreData: annotation: sql execution time: 0.0002s
+CoreData: sql: pragma auto_vacuum=2
+CoreData: annotation: sql execution time: 0.0002s
+CoreData: sql: COMMIT
+CoreData: sql: BEGIN EXCLUSIVE
+CoreData: sql: INSERT INTO ZUSER(Z_PK, Z_ENT, Z_OPT, ZADDRESS, ZCITY, ZEMAIL, ZID, ZLOCATION, ZNAME, ZPASSWORD, ZPHONE, ZSEX) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+CoreData: sql: COMMIT
+CoreData: sql: pragma page_count
+CoreData: annotation: sql execution time: 0.0001s
+CoreData: sql: pragma freelist_count
+CoreData: annotation: sql execution time: 0.0004s
+2018-12-06 11:35:06.360830+0530 HudaPoc[5059:636167] Warning: Attempt to present <UIAlertController: 0x7fe416005200> on <HudaPoc.SignUpVC: 0x7fe41311d2e0> whose view is not in the window hierarchy!
+Test Case '-[HudaPocTests.SignUpTests testCreateUser]' passed (0.026 seconds).
+Test Suite 'SignUpTests' passed at 2018-12-06 11:35:06.361.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.026 (0.027) seconds
+Test Suite 'HudaPocTests.xctest' passed at 2018-12-06 11:35:06.362.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.627 (0.636) seconds
+Test Suite 'All tests' passed at 2018-12-06 11:35:06.362.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.627 (0.637) seconds
+
+
+Test session results and logs:
+	/Users/rafeeqce/projects/iOS/HudaPoc/Build/Logs/Test/Run-HudaPoc-2018.12.06_11-34-31-+0530.xcresult
+

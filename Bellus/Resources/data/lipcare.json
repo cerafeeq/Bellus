@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "M.A.C Retro Matte Lipstick - Ruby Woo",
+        "price": "75",
+        "image": "lipcare001",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Huda Beauty Liquid Matte Lipstick",
+        "price": "87",
+        "image": "lipcare002",
+        "currency": "AED",
+        "description": "Introducing Huda Beauty's latest lip beautifier: the Liquid Matte, an unrivaled take on the liquid lipstick. The tried and true comfort-wear formula from top beauty expert, Huda Kattan, is infused with antioxidants and an exclusive complex to help maintain the lips' hydration. The lightweight formula glides on a thin coat of color that intensifies as it sets to a matte, transfer-free finish with amazing staying power. You might even forget you're wearing anything on your lips at all! Play with your look and combine colors to find your own, unique style. Pair it with a complementary Huda Beauty Lip Contour to set."
+    },
+    {
+        "id": 3,
+        "name": "Himalaya Herbals Sun Protect Orange Lip Care SPF 30 P+++",
+        "price": "55",
+        "image": "lipcare003",
+        "currency": "AED",
+        "description": ""
+    }
+]
+ 
+

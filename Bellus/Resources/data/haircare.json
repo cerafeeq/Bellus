@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Tangle Teezer Aqua Splash Detangling Brush - White/Blue",
+        "price": "25",
+        "image": "hair_care001",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Roots Paddle Hairbrush",
+        "price": "17",
+        "image": "hair_care002",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Chaoba 2800 Hair Dryer Professional Range",
+        "price": "55",
+        "image": "hair_care003",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Philips HP8302/06 Selfie Hair Straightener",
+        "price": "75",
+        "image": "hair_care004",
+        "currency": "AED",
+        "description": "Straighten and style your hair with this easy to use Philips Selfie straightener. This product makes styling at home quick and convenient. Look your best for all those important selfie moments."
+    },
+    {
+        "id": 5,
+        "name": "WOW Skin Science Apple Cider Vinegar Shampoo Sulphate Paraben Free",
+        "price": "35",
+        "image": "hair_care005",
+        "currency": "AED",
+        "description": "Powered with 100% pure, unfiltered and unpasteurized Apple Cider Vinegar, Sweet Almond Oil and Argan Oil; it helps gently detoxify the hair & scalp by clearing up the buildups caused by dust, pollution, dead scalp cells and styling products. WOW Skin Science Apple Cider Vinegar Shampoo does not contain any harmful chemicals like Sulphates or Parabens."
+    }
+]

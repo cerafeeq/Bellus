@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Bellus
+
+  Created by Rafeeq Ebrahim on 05/12/18.
+  Copyright © 2018 Rafeeq Ebrahim. All rights reserved.
+*/
+"Products" = "Products";
+"Categories" = "Categories";
+"Product Details" = "Product Details";
+"Mandatory fields cannot be empty." = "Mandatory fields cannot be empty.";
+"Email id is not valid." = "Email id is not valid.";
+"User already exists!" = "User already exists!";
+"User created successfully" = "User created successfully";
+"Profiles" = "Profiles";
+"Email id is not valid." = "Email id is not valid.";
+"Password can't be empty." = "Password can't be empty.";
+"The email or password is incorrect." = "The email or password is incorrect.";

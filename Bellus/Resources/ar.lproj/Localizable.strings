@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Bellus
+
+  Created by Rafeeq Ebrahim on 05/12/18.
+  Copyright © 2018 Rafeeq Ebrahim. All rights reserved.
+*/
+"Products" = "منتجات";
+"Categories" = "الاقسام";
+"Product Details" = "تفاصيل المنتج";
+"Mandatory fields cannot be empty." = "الحقول الإلزامية لا يمكن أن تكون فارغة.";
+"Email id is not valid." = "معرف البريد الإلكتروني غير صالح.";
+"User already exists!" = "المستخدم موجود اصلا!";
+"User created successfully" = "تم إنشاء المستخدم بنجاح";
+"Profiles" = "مظهر";
+"Email id is not valid." = "معرف البريد الإلكتروني غير صالح.";
+"Password can't be empty." = "لا يمكن أن تكون كلمة المرور فارغة.";
+"The email or password is incorrect." = "البريد الإلكتروني أو كلمة المرور غير صحيحة.";

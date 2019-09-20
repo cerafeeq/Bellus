@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Puma Uprise Shift Sneakers",
+        "price": "129",
+        "image": "fashion001",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Puma Unisex Shingauard",
+        "price": "17",
+        "image": "fashion002",
+        "currency": "AED",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Puma Austria Fanscarf Scarf",
+        "price": "55",
+        "image": "fashion003",
+        "currency": "AED",
+        "description": ""
+    }
+]
+

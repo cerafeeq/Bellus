@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Lakme 9 To 5 Eye Quartet Eyeshadow",
+        "price": "27",
+        "image": "eyewear001",
+        "currency": "AED",
+        "description": "Your perfect office eye stylist is here! The versatile colors in the Lakme 9 To 5Eye Quartet and the high-intensity powders give your eyes a defined finish. The radiant color and shimmer particles shape and highlight your eyes to give you that professional edge. Use the lighter shades for office wear and darker shades for your night look. The special applicator makes it very easy to do your own eyes and you can mix the shades to create new looks everyday! Buy the Lakme 9 To 5Eye Quartet, right away!"
+    },
+    {
+        "id": 2,
+        "name": "NYKAA Glamoreyes Eyeliner Pencil",
+        "price": "24.5",
+        "image": "eyewear002",
+        "currency": "AED",
+        "description": "From subtle to sultry, create an array of eye looks with Nykaa GLAMOReyes eye pencil. Featuring high-impact colors, this smudge-proof and water-proof eye pencil glides on comfortably, without tugging or pulling. The transfer-proof and fade-proof formula keeps the intense color locked down for hours and hours, giving you dramatic, gorgeous eyes round the clock!"
+    }
+]
